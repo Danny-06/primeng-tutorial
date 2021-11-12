@@ -2,6 +2,15 @@
   display: block;
 }
 
+
+.ejercicio {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .ejercicios-container {
   background-color: #666;
   border: solid 1px #999;
@@ -25,6 +34,7 @@
 .ejercicios-body {
   padding: 0.5em 1em;
 }
+
 
 .ejercicio {
   margin-top: 1rem;
