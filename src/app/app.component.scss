@@ -1,0 +1,41 @@
+:not(:defined) {
+  display: block;
+}
+
+.ejercicios-container {
+  background-color: #666;
+  border: solid 1px #999;
+  border-radius: 0.2em;
+  overflow: hidden;
+}
+
+.ejercicios-container .title {
+  background-color: #444;
+  padding: 1em;
+  font-weight: bold;
+}
+
+.ejercicios-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0.8em;
+}
+
+.ejercicios-body {
+  padding: 0.5em 1em;
+}
+
+.ejercicio {
+  margin-top: 1rem;
+}
+
+.btn {
+  all: unset;
+  background-color: #444;
+  border: solid 2px #ccc;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+
+  cursor: pointer;
+}

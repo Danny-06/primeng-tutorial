@@ -10,3 +10,10 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+
+// Always remove text selection when the user clicks on any part of the document
+// This is to avoid those annoying times when you want to remove the selection but you can't
+window.addEventListener('mousedown', event => {
+  if (event.button === 0) window.getSelection()?.empty()
+})

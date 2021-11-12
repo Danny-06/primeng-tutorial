@@ -1,0 +1,80 @@
+.card {
+  border-radius: 1em;
+  box-shadow: #999 0px 2px 5px 0;
+  background-color: #333;
+
+  margin-bottom: 2em;
+}
+
+.card.green {
+  background-color: #137a47;
+}
+
+.card.blue {
+  background-color: #056;
+}
+
+.card-header {
+  width: 100%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.card-body {
+  width: 100%;
+  padding: 0.7em 1em;
+
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.card p.subtitle {
+  color: #ccc;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+img {
+  display: inline-block;
+  -webkit-user-drag: none;
+}
+
+
+.pictureHeader {
+  width: 100%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.choise {
+  display: flex;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.btn {
+  all: unset;
+  background-color: #444;
+  border: solid 2px #ccc;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+
+  cursor: pointer;
+}
+
+
+.btn.save {
+  background-color: #218921;
+}
+
+.btn.cancel {
+  background-color: #992929;
+}
